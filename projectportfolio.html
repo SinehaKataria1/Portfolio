@@ -8,36 +8,39 @@
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
        <link rel="stylesheet" href="style1.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" >
        <div class="container-fluid  first " id="color1">
-              <div class="container-fluid imge">
+              <div class="container-fluid imge" id="home">
                      <nav class="navbar navbar-expand-sm   w-100 first1 ">
                             <div class="container-fluid ">
-                                   <h3 class="float-start" style="color: black; font-weight: 400;"> Code By <span
-                                                 class="text-white">Sineha</span></h3>
+                                   <h3 class="float-start" style="color: black; font-weight: 400;"><span
+                                                 class="text-white ms-3"> Code By Sineha</span></h3>
                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                           data-bs-target="#mynavbar">
                                           <span class="navbar-toggler-icon"></span>
                                    </button>
                                    <div class="collapse navbar-collapse" id="mynavbar">
-                                          <ul class="navbar-nav me-auto topnav ">
-                                                 <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                                                 <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                                                 <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-                                                 <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-                                                 <li class="nav-item "><a href="#" class="nav-link">Contact</a></li>
+                                          <ul class="navbar-nav me-auto topnav " >
+                                                 <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                                                 <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                                                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                                                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                                                 <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                                                 <li class="nav-item "><a href="#contact" class="nav-link">Contact</a></li>
 
                                           </ul>
 
                                    </div>
                      </nav>
                      <div class="row ">
-                           
-                            <div class="col-lg-6  col-sm-12">
+
+                            <div class="col-lg-6  col-sm-12 "  data-aos="fade-up" data-aos-duration="1000">
                                    <div class="container-fluid second  ">
                                           <h4 style="color:#cc00ff">Hi There!</h4>
                                           <div class="wrapper">
@@ -48,139 +51,513 @@
                                                         <li><span>Freelancer</span></li>
                                                  </ul>
                                           </div>
-                                          <p class="text-white mt-0">I'm a passionate developer dedicated to crafting user-friendly experiences. I am focused, detail-oriented,
-                                                  and committed to ensuring excellence in every project. Let's make something special together.</p>
-                                          <button type="button" class="btn aboutbtn">About me<i class="ri-user-received-fill" style="margin-left: 40px;"></i></button>
-                                          <!-- <ul class="nav   sideul ">
+                                          <p class="text-white mt-0">I'm a passionate developer dedicated to crafting
+                                                 user-friendly experiences. I am focused, detail-oriented,
+                                                 and committed to ensuring excellence in every project. Let's make
+                                                 something special together.</p>
+                                          <button type="button" class="btn aboutbtn"><a href="#about" class="text-decoration-none text-white">About me<i
+                                                 class="ri-user-received-fill"
+                                                 style="margin-left: 40px;"></i></a></button>
 
-                                                 <li class="nav-item "><a class="nav-link" href="#"> <span
-                                                                      class="link-text">Linkdin</span><i
-                                                                      class="ri-linkedin-fill"></i></a></li>
-                                                 <li class="nav-item "><a class="nav-link" href="#"><span
-                                                                      class="link-text">Github</span><i
-                                                                      class="ri-github-fill"></i></a></li>
-                                                 <li class="nav-item "><a class="nav-link" href="#"><span
-                                                                      class="link-text">Facebook</span><i
-                                                                      class="ri-facebook-circle-line mt-5"></i></a></li>
-                                                 <li class="nav-item "><a class="nav-link" href="#"><span
-                                                                      class="link-text">Upwork</span><iconify-icon
-                                                                      icon="simple-icons:upwork"></iconify-icon></a></li>
-                                                 <li class="nav-item "><a class="nav-link" href="#"><span
-                                                                      class="link-text">Resume</span><i
-                                                                      class="ri-user-shared-fill"></i></a></li>
-                                          </ul> -->
                                    </div>
                             </div>
-                            <div class="col-lg-6 col-sm-12 sec1">
+                            <div class="col-lg-6 col-sm-12 sec1"data-aos="fade-down" data-aos-duration="1000">
 
                                    <!-- <img src="https://camo.githubusercontent.com/d294e7b2c6e298dc21afba5ab4e6c0f931fc591fa9bb901c563304c7c1cf99b8/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f333835333739322f73637265656e73686f74732f31333839353737322f6d656469612f61646166646535366332363664393063666237663236663332386631386236622e706e673f636f6d70726573733d3126726573697a653d34303078333030"
                                    class="image img-fluid "> -->
                                    <!-- <img src="https://amincodes.com/html/flex-it/assets/images/hero/illustration-1.png"
                                           width="500px"> -->
-                                          <img src="https://image.lexica.art/full_jpg/65fb86dc-cfe9-4c4a-89f8-d76d610eb498"
-                                          class="img-fluid img1"  >
-
+                                   <!-- <img src="https://image.lexica.art/full_jpg/65fb86dc-cfe9-4c4a-89f8-d76d610eb498"
+                                          class="img-fluid img1"  > -->
+                                   <img src="https://steamuserimages-a.akamaihd.net/ugc/952961606274841534/C4264FC529D88460C03F67BE7853B37236726289/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+                                          class="img-fluid img1">
                             </div>
                      </div>
               </div>
-              <div class="row about">
-                     <div class="col-sm-5">
+              <div class="row about" id="about">
+                     <div class="col-sm-5" style="margin-top: 50px;"  data-aos="fade-up" data-aos-duration="1000">
                             <!-- <img src="https://image.lexica.art/full_jpg/65fb86dc-cfe9-4c4a-89f8-d76d610eb498"
                             class="img-fluid img1"  > -->
                             <img src="https://e1.pxfuel.com/desktop-wallpaper/933/340/desktop-wallpaper-purple-aesthetic-aesthetic-girl-1080x1080-thumbnail.jpg"
-                            class="img-fluid img1"  >
-                            
-                     </div>
-                     <div class="col-sm-7 aboutdiv">
-                            <h2 style="font-size: 55px;">About Me</h2>
-                            <p class="w-75">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint molestias ducimus dolorem
-                                   laudantium commodi nisi quae laboriosam cumque impedit aut?
-                                   In aut tempora cumque excepturi nisi eius sequi atque eum.</p>
-                            <ul class="nav flex-column  ul1">
-                                   <li class="nav-item mb-2">Age: 19</li>
-                                   <li class="nav-item mb-2">Gender: Female</li>
-                                   <li class="nav-item mb-2">Work: Front-End Developer</li>
-                                   <li class="nav-item mb-2">Freelance: Available</li>
-                            </ul>
-                            <ul class="nav flex-column ul2">
-                                   <li class="nav-item mb-2">Address:Ghotki,Pakistan</li>
-                                   <li class="nav-item mb-2">Phone:+92 312 6511235</li>
-                                   <li class="nav-item mb-2">Email:sinehakataria9@gmail.com</li>
-                                   <li class="nav-item mb-2">Language: Urdu, English</li>
+                                   class="img-fluid img1">
 
-                            </ul>
-                            <button type="button" class="btn "> Download CV</button>
+                     </div>
+                     <div class="col-sm-7 aboutdiv"  data-aos="fade-down" data-aos-duration="1000" >
+                            <h2 style="font-size: 55px;">About Me</h2>
+                            <p class="w-75" style="line-height: 2.5;">
+                                   Hello! My name is Sineha Kataria and I'm a web developer. Currently, I'm pursuing my
+                                   degree in computer science in sukkur IBA university.
+                                   As a web developer, I'm passionate about creating innovative and user-friendly
+                                   websites that provide a seamless user experience.
+                                   I possess expertise in various programming languages and frameworks, including HTML,
+                                   CSS, JavaScript, React, and Node.js."</p>
+
+                            <button type="button" class="btn "> <a href="./cv1.pdf" class="text-decoration-none text-white">Download CV &nbsp; &nbsp; 
+                                   <i class="ri-download-cloud-fill down"></i></a>
+                                         </button>
 
                      </div>
               </div>
-              <div class="container-fluid">
-                     <div class="row">
-                            <div class="col-sm-12 text-center" style="margin-top: 300px; margin-bottom: 100px;">
-                                   <h1 class="text-white">My Skills</h1>
-                                   <p class="text-white">I Like To Craft Beautiful And Scalable Web Products </p>
+              <div class="container-fluid skills">
+                     <div class="row" id="skills">
+                            <div class="col-sm-12" style="margin-top: 300px; margin-bottom: 100px;">
+                                   <h1 class="text-white cer">My Skills</h1>
+                                   <p class="text-white mt-5">I Like To Craft Beautiful And Scalable Web Products </p>
                             </div>
                      </div>
                      <div class="row text-white">
                             <div class="col-sm-1 text-center ">
-                              <ul class="nav flex-column">
-                                   <li class="nav-item mb-5"><i class="ri-brush-fill" style="font-size: 30px;"></i></li>
-                                   <li class="nav-item mb-5"><i class="ri-computer-line"  style="font-size: 30px;"></i></li>
-                                   <li class="nav-item"><i class="ri-tablet-fill"  style="font-size: 30px;"></i></li>
-                              </ul>
-                            </div>
-                            <div class="col-sm-5">
                                    <ul class="nav flex-column">
-                                          <li class="nav-item mb-5"><span>Design + Development</span>Clean, modern designs-optimized for performance,search engines, and 
-                                             converting users to customers. </li>
-                                         <li class="nav-item mb-5"><span>Technology</span>Combined all the latest technologies to a progressive website.</li>
-                                         <li class="nav-item mt-2"><span>Always Responsive</span>A responsive design makes your website accessible to all
-                                             users, regardless of their device.</li>
+                                          <li class="nav-item mb-5"><i class="ri-brush-fill"
+                                                        style="font-size: 30px;"></i></li>
+                                          <li class="nav-item mb-5"><i class="ri-computer-line"
+                                                        style="font-size: 30px;"></i></li>
+                                          <li class="nav-item"><i class="ri-tablet-fill" style="font-size: 30px;"></i>
+                                          </li>
+                                   </ul>
+                            </div>
+                            <div class="col-sm-5" data-aos="fade-down" data-aos-duration="1000">
+                                   <ul class="nav flex-column">
+                                          <li class="nav-item mb-5"><span>Design + Development</span>Clean, modern
+                                                 designs-optimized for performance,search engines, and
+                                                 converting users to customers. </li>
+                                          <li class="nav-item mb-5"><span>Technology</span>Combined all the latest
+                                                 technologies to a progressive website.</li>
+                                          <li class="nav-item mt-2"><span>Always Responsive</span>A responsive design
+                                                 makes your website accessible to all
+                                                 users, regardless of their device.</li>
                                    </ul>
 
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                                    <div class="progress " style="margin-bottom: 20px; height: 30px;">
                                           <div class="progress-bar" style="width: 95%; background-color: orange;">
-                                                 <span>HTML5 <span class="float-end " style="margin-left: 590px;">95%</span></span>
-                                                 
+                                                 <span>HTML5 <span class="float-end "
+                                                               style="margin-left: 590px;">95%</span></span>
+
                                           </div>
                                    </div>
                                    <div class="progress" style="margin-bottom: 20px;height: 30px;">
                                           <div class="progress-bar" style="width: 85%;">
                                                  <span>CSS
-                                                 <span class="float-end " style="margin-left: 530px;">85%</span></span>
+                                                        <span class="float-end "
+                                                               style="margin-left: 530px;">85%</span></span>
                                           </div>
                                    </div>
                                    <div class="progress" style="margin-bottom: 20px; height: 30px;">
-                                          <div class="progress-bar" style="width: 80%;background-color: rgb(143, 143, 20);">
+                                          <div class="progress-bar"
+                                                 style="width: 80%;background-color: rgb(143, 143, 20);">
                                                  <span>Javascript
-                                                 <span class="float-end " style="margin-left: 480px;">80%</span></span>
+                                                        <span class="float-end "
+                                                               style="margin-left: 480px;">80%</span></span>
                                           </div>
                                    </div>
                                    <div class="progress" style="margin-bottom: 20px;height: 30px;">
-                                          <div class="progress-bar" style="width: 80%;background-color: rgba(0, 0, 0, 0.638);">
+                                          <div class="progress-bar"
+                                                 style="width: 80%;background-color: rgba(0, 0, 0, 0.638);">
                                                  <span>Github
-                                                 <span class="float-end " style="margin-left: 500px;">80%</span></span>
+                                                        <span class="float-end "
+                                                               style="margin-left: 500px;">80%</span></span>
                                           </div>
                                    </div>
                                    <div class="progress" style="margin-bottom: 20px;height: 30px;">
                                           <div class="progress-bar" style="width: 75%;background-color: red;">
                                                  <span>PHP
-                                                 <span class="float-end " style="margin-left: 465px;">75%</span></span>
+                                                        <span class="float-end "
+                                                               style="margin-left: 465px;">75%</span></span>
                                           </div>
                                    </div>
                                    <div class="progress" style="margin-bottom: 20px;height: 30px;">
-                                          <div class="progress-bar" style="width: 85%;background-color: rgb(156, 53, 70);">
+                                          <div class="progress-bar"
+                                                 style="width: 85%;background-color: rgb(156, 53, 70);">
                                                  <span>React
-                                                 <span class="float-end " style="margin-left: 530px;">85%</span></span>
+                                                        <span class="float-end "
+                                                               style="margin-left: 530px;">85%</span></span>
                                           </div>
                                    </div>
                             </div>
                      </div>
               </div>
+              <div class="container-fluid Education text-white ">
+                     <div class="row Education " id="education">
+                            <h1 class="cer">Education</h1>
+
+                            <div class="col-sm-12 edudiv mt-3" data-aos="flip-left" data-aos-duration="1000">
+                                   <div id="accordion" style="box-shadow: 0 0 15px 0#cc00ff; border-radius: 5px;">
+                                          <div class="card text-white" style="background-color: #111319;">
+                                                 <div class="card-header ">
+                                                        <a class="btn d-block" data-bs-toggle="collapse" href="#collapseOne">
+                                                               <span class="float-start text-white fs-4">Bachelor in
+                                                                      Computer Science</span>
+                                                               <span
+                                                                      class="float-end text-white">&#43;</span>
+                                                        </a>
+                                                 </div>
+                                                 <div id="collapseOne" class="collapse show"
+                                                        data-bs-parent="#accordion">
+                                                        <div class="card-body">
+
+                                                               ⚡ I am pursuing my bachelors in Computer Science.<br>
+
+                                                               ⚡ I have studied core subjects like C++, Java, Data
+                                                               Structures, DBMS, Operating system etc.<br>
+
+                                                               ⚡ I have also completed various courses like HTML , CSS,
+                                                               JavaScript etc.<br>
+
+                                                               ⚡ I have implemented several projects based on what I've
+                                                               leart under my Computer Engineering course.
+                                                        </div>
+                                                 </div>
+                                          </div>
+                                          <div class="card text-white" style="background-color: #111319;">
+                                                 <div class="card-header">
+                                                        <a class="collapsed btn d-block" data-bs-toggle="collapse"
+                                                               href="#collapseTwo">
+                                                               <span class="float-start text-white fs-4">Higher Secondary
+                                                                      Education</span>
+                                                               <span
+                                                               class="float-end text-white">&#43;</span>
+                                                        </a>
+                                                 </div>
+                                                 <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                                                        <div class="card-body">
+                                                               ⚡ I have done my Higher education from sindh public
+                                                               higher secondary school<br>
+                                                               ⚡ Throughout my higher secondary education, I have
+                                                               studied a diverse range of subjects, including
+                                                               mathematics,
+                                                               science, literature, history, and more, which has
+                                                               provided me with a well-rounded education.
+
+
+                                                        </div>
+                                                 </div>
+                                          </div>
+                                          <div class="card text-white" style="background-color: #111319;">
+                                                 <div class="card-header">
+                                                        <a class="collapsed btn d-block" data-bs-toggle="collapse"
+                                                               href="#collapseThree">
+                                                               <span class="float-start text-white fs-4">Secondary
+                                                                      Education</span>
+                                                               <span
+                                                               class="float-end text-white">&#43;</span>
+                                                        </a>
+                                                 </div>
+                                                 <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                                                        <div class="card-body">
+                                                               ⚡ I have done my secondary education from sindh public
+                                                               school<br>
+                                                        </div>
+                                                 </div>
+                                          </div>
+                                   </div>
+
+                            </div>
+                     </div>
+                     <div class="row mt-5 ">
+                            <h2 class="cer">Certificates </h2>
+                          
+                            
+                            <div class="col-lg-4 col-md-4 col-sm-6 mt-3" data-aos="fade-up" data-aos-duration="1000">
+                                   <div class="card c1" >
+                                         
+                                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"
+                                             style="width:100%;height: 270px;">
+                                         
+                                          <div class="card-body text-center">
+                                          <span style="font-weight: 700;">HTML</span><br>Meta
+                                          </div>
+                                   </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 mt-3" data-aos="fade-up" data-aos-duration="1000">
+                                   <div class="card c2" >
+                                             <img class="card-img-top" src="https://play-lh.googleusercontent.com/ajbmMCoaThQcD4_z-1-6H79M0ItJ1Vz2jW_5yRB_eb1d_Fdzmdci0SPHFfujQj23n-Q"
+                                             alt="Card image" style="width:100%;height: 270px;">
+                                          
+                                          <div class="card-body text-center">
+                                          <span style="font-weight: 700;">CSS</span><br>Meta
+                                          </div>
+                                   </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 mt-3" data-aos="fade-up" data-aos-duration="1000">
+                                   <div class="card" style="width: 300px;">
+                                         
+                                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"
+                                             style="width:100%;height: 270px;" >
+                                          
+                                          <div class="card-body text-center">
+                                          <span style="font-weight: 700;">Javascript</span><br>Meta
+                                          </div>
+                                   </div>
+                            </div>
+                     </div>
+                     <div class="row mt-5">
+                          
+                            <div class="col-lg-4 col-md-4 col-sm-6 mt-3 " data-aos="fade-down" data-aos-duration="1000">
+                             <div class="card c1" >
+                         <img src="https://www.lifewire.com/thmb/gNcog5irXCAzIZ8QWwvY2W2Epms=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/database-157334670-5c29939d46e0fb0001edf766.jpg"
+                                             style="width:100%;height: 250px;"  > 
+                                          <div class="card-body text-center">
+                                          <span style="font-weight: 700;">Database Structures and Management with MySQL</span><br>Meta
+                                          </div>
+                                   </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 mt-3" data-aos="fade-down" data-aos-duration="1000">
+                                   <div class="card c2">
+                                   
+                                             <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-1125-SQL_Server_2022_web_blade_image_RWWaqg:VP1-539x440?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&hei=600&qlt=100&fmt=png-alpha&fit=constrain"
+                                             style="width:100%;height: 270px;" >
+                                         
+                                          <div class="card-body text-center">
+                                          <span style="font-weight: 700;">SQL</span><br>Meta
+                                          </div>
+                                   </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6  mt-3" data-aos="fade-down" data-aos-duration="1000">
+                                   <div class="card" style="width: 300px;">
+                                        
+                                             <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRUYGBgZHBgaHBkaGBoaGhoaGBoaHBoYGhwcIS4lHB4rHxwaJjgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHhISHjUrJCw1NDQ6NjQ0MTQ0NDY0NDQ0MTQ1NTU0NTQ0NDQ0NDQ2NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAJ8BPgMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIFAwQHBgj/xAA+EAABAgIGBwYDCAEFAQEAAAABAAIR8AMEITFBURJhcYGRocEFBjKx0eEHIvETQlJygpKismIjM8Li8hRD/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAECAwQFBv/EADARAAIBAgQFAQcEAwAAAAAAAAABAgMRBBIhMQUTMkFRYRRxgbHB0fAiIzOhQlKR/9oADAMBAAIRAxEAPwCn8+u45g3n7yBquuGWAGQ/DniiRytFn5TYM7Ua5G0xyjefu3L7k9oBkLMulm9uB8KY1cOYswvbgLkQwzj1jZC292BuCc5iPS06vCgQCG7lC7WLm6r1Ia9V+fiNhwuuKQnZ53DXenDn1tNlxsySEAu4biTE62nyU8d++wYHFIZ7Tuw22YJaQEN5s8xxSETAv5FKkuUDSW2D6rWrb4wEU4xbYJamR1K0Y8LVjdWchx9FrIWygi8qMrqw44w2WLGSkhUkkMEIQmAIQkgQ0kIQAIQhAAooQgROipHNOk1xaRiDAq5qfbQPy0w/W0f2aPMcFRoWdSlGa1JaT3PXUlCIBzSC02gi0HYVqPo1Udn9ouojZ8zT4mm46xkda9CwspG6bDEYjFpyIwK4pRlTeu3kylFxK9zVAhbT2LA4LSLC5o0gtMwWOdZ1krYp22rAZ6BbRehRA8uW4DxIOXL2uG9Mz6DIa0p+gx2lUBEzlxNnAFBmTE8GhEx97zugEThDfhxJKAEfLfDzhySjjz94/wDJOdm6FnAbUo48/eP/ACOxMA8+fQncSkNXKMd+jA8QiT7iHm3ekeW6G6NnDgmBvSedh1+IWk4WJ84Tu/iIOSG3fqz2QEbICLSgD6enMRH+NqyNhjjHndqtjZbA+I2pxx56rbRDVE2R8QsSLpz1jnne21Rc/KG+cxrsagRkjnOcN8BZbqUS/Cc3HpGxY49L+Udgt3hHl0wG0osFiRcTvt3C6dqbc9yUOOPopBMQ1qVnxbh6rcAtWlWD8xnBVHca3MaEIWpQIQhAAhCSBAhCEACEKKBAhCEACEIQAJIQgQLZqNcdRO0m2i5zTc4ZHocFrISlFSVmJ6nrotpGh7bWniDi06wtR7FV9kV/7J0HeB1jhlk8ax5blfVmihs89a8+UXTll7djGSsyorLblrmZ2LdrTfNahC6IvQaMZmcgomffM6sFMzPPgomZmJVoZEzr9eQEUp3el10BrTM7uVnAJGdvrdfE5AJjFP0s8gdqUefPnbxdsQZ1nnE8TsR15+cf5bAmAp2dAf2lI3/WPIg8Y7U5HtDoTsSM3Q52eR1JiN4n1jzjC23HE+K5Qc+dnmbIWxtDc1Eun23RhmHDFKfK7l/ErOxvYcz02NTh9OmyyGxpzSmzpxHFuSJ1fSENwGaYEp687zqgmPf/ALHooz6x8zwUpt8z6SARIcuZUgFETFSHNJkk29OsFXUp+Y7T5qzYOvRVRMbVVPdjiCEIWpYISQgQIWx2fUaSneKKiaXOOAuAF7nG4AZle1qfw0pCAaWsNbm1rC7cHOI8lyV8ZRoaTlZ/9ZnOrGO7PBJRXWKr8OKq21z6V+ouDR/AA81b1XulUqO6rUZ1uGmeL4rgnxqgulN/0YvFRW1ziNE0vOiwFxyaC48ArWq92q5SeGrUn6h9mP5kLuNHQtaINaAMgABwCmuWpxub6Ipe/UyeLfZHI6t8PK46Gl9kwYxcS4bmtIPFXFV+GQ//AErDjqYwN5uLvJdESiuSfFMTL/K3uM3iJvueTq3w/qTR8zXv1upHD+miFS95e4DAx1JVNIEAk0RJcCBfok/MHaiTHUuixSisoY7ERnmzt+jehKqzTvc+dgUKw7xVb7Ot07IQApHEDJrzpNH7XBVy+xpzU4KS7q56Kd1caEIVjBeh7DrWmw0bvEwRbrbluPIheeWapVk0b2vGBtGbTY4cIrKtDND17EyV0XddZZvVe5XXaTBCItBgQcwblTvC56UrxM0zEZmblAz9ePMrIVAzPDktkUQM4XeXTakfX3nicEzMzfmbF7e0jdmqAifblddyh+nFIzu4x5/pTnjP/q9ImdmPvzFyYwM7Nd8RtiNYQIzGPK3zGtL15+vA/mSO7+P/ACs4QOYTEbM6/rGG+BxROr6X7o/hSmcxDlEXhOZ5cjiVJ0Dnzv5/y1Jzrv4Rjz1NURPL0HAfhKcyOm7NIRIT026uKkJnE61ETMx2KQmcfJBJIKQn1CiFNqlksysGM61ThXQHyu1NdyBVMqpdxxBJCFsWCRKagUhM6n8K6kBV300BpPeRHJrAAG8dI7xkvdrn3wlrMaGno4+GkDtgewDzaea6BFfF4/N7TPN5PLq3zu4yUopLjvfft+uUdbpqEVh7WNLS0N0WQa5rXCDmgON5EY4LLD4eVeeSJMIOTsjsDngCJMBmbAqmt95qnRxD6zQgi8B7XOG1oiVxir9j1yuDSaymphEwc9xLYiwwc8w5q4qvw4rrhaKJmp74n+DXDmu72CjD+Sovca8qK3Z0ird8qg86La1Rx/yJbzcAFeB8bRaDiuF9vd0KxVGadI1jmRALmOLmtJuDogERujCGEbQrb4cd4X0NO2qvJNFSEhoJ8D7xo5NdcRmQc4lXAR5bqUZZkglRWXNF3OvJRQkvNMTk3xMqWhWxSAWUrGmP+TPld/HQ4ryC7D377GNZq50BGkozptGLrIOaNrbQMSGrjrSvquFV1Ogo946fY76E7xt4JIQkvUNgQhCBHo6hS6dXGbItOwQLeRA3LSeE+waT/dZm0OG1pgeTuSdKFxJZZSXr8zJ6Nmu4KBmZyWRyxlbICBmZ5mCMzw5WXBSMzPmDEzO/nr+akURM7+PWP+WC9pk7CbkzM7uWMPlUzJ1xFqYCnDfqhyzDURm7jEHnuJCJnG7flEIGqeGGyzZcmBnnr78DmnM8btcLiEpyu8umwonp7Q1wuIKk3HMxn+SYmZ/skJmbswQXMz/2QiUzPAKQmZCiJnbJN0hMztSJJBZGrGFkakxM2IfI/wDK7k0qjV8PBSfkf/UqhRR3Y49wQhC6CwUCmkUmSz3/AMI3f6lZGbaI8DSeq6audfCWrENrFKbnFjBtYHF39wuhxXx3EWniZW/NDza3WxxXI/ipV9Gtsfg+iH7mOcDyLV1pc++LdWjR1ek/C9zP3t0v+COHTy4mProFF2mjN8KKzpVekYT4KUkamva0jmHL3UVx3uD2/Q1R9N9u4ta9rYENc6LmkwEGg4PN9li9LWvifV2x+zoaZ5wJ0WNO+JPJa4vCVXiJZItplVIScnZHqu8eh/8ALT/aeH7Kkjs0Dzy1wXF+69WdSVyrtbeKRjzqaxwc48GlbnePvdWK4NBwFHRRB0GknSItGk4+KBtgABdZYFedye1OzqsTpUjhTO+UvpKPRaBGOi3RJDRGESTbDC5dVKlUw2HndNuXZa2LinCDvuzqUVGKiykDgHNIIIiCDEEG4gi8JkrxrHMOK8h253GoKdxpGONC9xidEAscTe4tMIE4wIjfevWLyPfvvQ6qhtHQw+2eCdIgHQYDDSgbyTECNnyuyW+GdXmJUnZsuDlm/Scy7QqhoqakoiYljnNjCEQ0wDoYREDvWunS0znlz3uLnOMXOcYknWkvsqd8qzbnoK9tQQkhWM3+xXQpmj8TXN/iT5gLdpxaq7sk/wCsz83mCFZ1i9ctT+T4fcznuajlicsrliKpCImZnqEZmb+IZmd16Tpmb9cHWgE6Z4TAiJnj688je7Zmdf3ozOGWq7CBDKCZnZA2JTid9lu/jamZ8set9xtgUpx6W79VtoTA2Jyu8octYROyZiLiZmzCIsQJ6XdN2IUmw58vblqJJmeH3UJnjz1tUgZmfNAhiZnopCZnaoiZnoJCZnfekImFkasQWRhUsTNyjEWPGbH/ANSvPxXpKha4DOzjZ1XmoQsN+KVDqkvcEO4IQhdJYK07u9hPrlIaNjmt0QHOc6JIbGEWtHiNt0RtVUt3sjtilqlIaWh0dItLDpguGiS0mwEYtC58TzOW+X1diJ3yu2527sfsxlWoW0NGDotF5vJJi5ztZJJW8vEd0e/QrLxQU7RR0p8JaToPheBG1rtUTHPBe1XxtanUhNqpvueZKLT/AFDivL/EWr6dRpDCJYWPG5wDj+0uXp4rQ7bq32tXpqP8VG9o2lpA5wRRllqRl4aCLtJM4h2JUG09PR0LnaIe4t0gIkfKSIAkXkAb10mq/DiqNtc6lfqLg0cGNB5rl/ZlZ+zpaKlu0XsedjXAnlFfQUV7PFK1WnOOWTSa7HTWk01Znnh3KqAbo/8Azt26Tyf3RivCd+e6TaqG0tCT9k52iWuMSxxBIg7Fpgb7QReY2dbivE/E/tBjau2giC+kc1wbiGtMS85CIA1xORXFg8RW50U5NpvVN3M6cpZkrlR8Le13ikdVHElhaXsifC4EaTRqIOlDMHMrpi478Oqu51eY4XMbSOdsLdEc3Dguwo4jCMK7y91cKqSkNca+IFOXV+lBuYKNg2aDXH+T3LscVxnv2wiv0+v7MjYaNnUFa8KS5/wf0Cj1FEE0gmvqEdoIQhMDa7K/3mfmHVWdZNqq+zT/AKrNp8irKnNq56q/c+BEtzWcsZWRyxOTQhGZnZiomZ4zEqRmZ1lQM656ZC2kAjtmSOOERCJmd/PIkBmZ38/8jBTfOfPWVQCnpceEN2RSO7fHpbvxhbaEzP03coXtRGdIDmd22w5oAzzMwyIKPf39+YxRPrPEIn0x67DgpOgczPG8MGefvzj95RmZ3C9MT5z18SBEgJmdlmjITM9FATM8IxkJmfNIlmQKTSsYU2lJiZvVN0HN2jzVV2pRaNM9uGkXDY75h5rfoHWjaE+8dD4KQYjRO0RLeWlwWUHlqr1FF2ZSIQkuw1BIpoKlksxRLSHNJa5pDmkWEOBiCNYK7t3b7VFZq9HTWaTmwcBg5p0XjZpAw1ELhbgujfCeuRZT0J+65rx+sFp5tH7l43FqKlT5ndfJnNXhdXOhxSilFJfPHGfP/a1W+zpqaihANfSNGxriBygvZu+Jb2sa1tXBcGtBc+ksLgACdFrbo61ddq9w2U9YpKd1O4NeQdBjREENAPzEmMSCbsVnq3cCpN8TX0hzc8jkzRC9mri8LVhHmJtpdvPc6XODSueHrff+vPEA6jogfwMt4vLlWdn9k1quPLmMfSOcfmpXk6OUXPdYYZCJssC7FVewarR2soKJpz0Gl37iIqxWSx1Omv2YWfl/n1J5qj0oo+6vd1tSoyAdOkdAvdCEYXNbk0RO2JOoXiELzpzlOTlJ3bMm23dguWfE2raNaY/B9GB+prnA8i1dTXIviD2s2nrOiwhzKFuhpC0F5MXkHED5W7Wld3C1L2hNeHc1o9R5oJpBNfVo7ASQhAGxUf8Acbv/AKlWFKZmb1X1DxjUD5Q6reeZ8vI8VhU6jOW5jdM4rGZnFScVEz7lCERM+ntxUYzMnYEzOz081Ez1jnr3BWhinOb+ebkjOOfHHbE/iCZm30325xP3QoziPp0/SgAm/Zjwt/Kc0p8JPIb9hiMkGbNuHGz8wyQBt3GB48NthTAzmfePWByKc7/XgdTkp+kOkRqRPsPQRGpI3GJ3TuyagTvn/wBInhxjz2BAmffaRckIlPrPG2AUhMzzKgJ6TwjepCcPp02pASEzPNTBWMTM4KQMzvSZJnY5W1JQ/a0bqPEj5fzC1vOzeqVpVvV6SEFz1k9GiGeWIhYbDiMjkkrjt+qQcKVo+V3i1O979oKp12U5qcVJGqd1cEIQrAiV6f4cVwUdd0XGApWOaMi4Frm74NcN68yVCJBDmkhwIIIMCCLQQRcQcVy4mlzaUoeSJxzRaPoZC5l2V8SnsaG1ihL3AQ02ENLtbmkQB1ggagpVr4nPtFHVgMi+kJ4ta0f2XzLwNdStl+Rw8qXg6UkuO1nv7Xn+F9HR/kowf7lyqKz23W6Tx1imOoPc1v7WkDktocMrPeyKVFncq1XKOjEaSkYwZuc1o/kQqatd9Kgy+sNccmBz+bARzXFfshfjnipBi6ocI/2l9PuaKh5Z06s/Eurtj9nQ0z9Z0GtO/SJ5KnrPxMrDv9ugo2fnc5/loLxWiiC6YcMox3VylSiXPaHe2u07S19NotNhaxoYCMtIfMRqiqdrYIAUgu6lQhSVoKxpGKjsMIQkulFDSQhAGzUPHu6gdVtuM7QD6rVqV7jqnmAthx8h5BYy6iJbkSomchtTKifoOpQhCM57duQUTM8hrtwTjPXabgomYcID+o1kpgIzl9LOAP4lEzHffzjsdmmZPXZZHY0ZqQadnSYX3fKc0xkDv6/Wzi3/ACUxQxvG6SIX2aiMlNrYXA9eO6FmLRbagt1A6rBvFkMcBiLbEriuOT7x6jejrz84/wAtqWXL2t8juRJ9xDzA2pnQOdvnH+WwJzMk6glHnz9eLtiJnIftCQhzOvibcExPp7byoj6e0OnFMe3tZ5BAExMzEqQmeChGZxyCkJ9OqTJMgK36B9g3TOSrgVt0DrBOKzmtCGWbNF7Sxwi1wgehGsG1eZr1UdRPLXbQcHNwIV5R0iz1igbTM0XWEWtd+E9QcQsYTdOXo/y4RlZnlELLWaB1G4tcIEcCMCDiFiXemmro0uIqJCkkhoGQISgpwRBTlEQgiCnBEEZREYIgpITygRgnBNCdgFBNCSdgBCEIAEIQgRtVQWHWQOFqzPvWKrWN2k+im/JZS6iHuKOJuSdr2nZlOtSIidQtPTqgMz2ka/ug5bdSVwMZnb6AJhm4cwIcoDPFyyhoE25niYDEIP02xwhryyuRmFcgGQ2+XtYNzTaibd3HC2251qJ5cjCH4fEkeMefrG3A+IWoAczfFwh/l4ClDbrhGPK3O85WImPlG3OBgSPEbEiRnojA2cLbLRC4fdvQA/PHPfZHiCjy5DoP4ocMOXtaPJAtMMRxn9So6Bx589+PEpTD0EPJu9DbYwvx97vMoZbddOwcigByfe3zO5MH6x69GqLbREWjyhtu3NTaY2jj5iJt4AJCJCbLdww2lMGegzKi26OHAbYXnenHHDP0GCBEwZ8gtigNi1ZA161noDhjeoktCWbbXLYo3wWmCptcsZRJZv09Cymbovw8Lh4mnVmNS85X6i+iMHCLT4Xjwu9DqKu2PW02mBBa4Ag3giIKiE5U3pqvAKTR5BCvq12CHfNQn9Dj/Vx8jxVC9sCbIQsI1rtp1YVOktNPYEkIWhQIQhAgSQhAAhCSBAhCECBCysoCbhZnHNZW1TM8PdJySFdGqm1pNwit1tC0YcbUypz+BZgoaIhojZ7rKWCImFnkp6tSjG7bCO43rK7ZFxHryxhmL1Eux2nVZYBHDYUGyG1xGVhIsN4vSNhAxsGv5QXXi/egBGyyTDVnpHBRIwnKJsy0jaN6LrMb4ZwEY5RiRkgi3R5crL8A64i9MBRxu6RhjHMtxHhS5R9obb2/i8PEFphjjnbCP9z97BAtJ5jbfG78ZxNyYBMMQNWIsJuA8KRMLYROIEdf4dYdeTekDGOMLSMMScAMHC43pjSPh+YizDCw+IahcAgD/9k="
+                                             style="width:100%;height: 270px;" >
+                                          
+                                          <div class="card-body text-center">
+                                          <span style="font-weight: 700;">Boostrap</span><br>Meta
+                                          </div>
+                                   </div>
+                            </div>
+                     </div>
+
+
+              </div>
+              <div class="container-fluid Projects text-white ">
+                     <div class="row Projects" id="projects">
+                            <div class="col-sm-6" style=" width: 700px; height: 430px;" data-aos="flip-up" data-aos-duration="1000">
+                                   <img src="https://devdevshow.com/wp-content/uploads/2021/11/image-13-1024x682.png"
+                                          class="img-fluid img-thumbnail" width="700px">
+                            </div>
+                            <div class="col-sm-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+                                   <h1 class="text-center" style="font-size: 60px;">Projects</h1>
+                                   <p class="w-75 " style="margin-left: 120px;">My projects make use of a vast variety
+                                          of latest technology tools. My
+                                          best experience is to create  Backend Projects,
+                                           Java Projects and React Project. Below are some of my
+                                          projects. Note that not all of the mentioned projects are on GitHub yet. </p>
+
+                            </div>
+                     </div>
+                     <div class="row" style="margin-top: 100px;" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="col-sm-4" >
+                                   <div class="card" style="border: 1px solid #111319;">
+                                          <div class="card-header bg-warning">
+                                                 <h4>University Management System</h4>
+                                          </div>  
+                                          <div class="card-body pb-4 text-white"
+                                                 style="background-color: rgb(41, 42, 45);;">
+                                                 
+                                                 <p>A university management system is a software application
+                                                        to efficiently manage  academic, and financial processes within a university or education institution.
+                                                       <br> <br>---Technology:Java and Database
+                                                         </p>
+                                          </div>
+                                          <div class="card-footer bg-dark">
+                                                 <a href="#" class="text-decoration-none float-start a1">Demo</a>
+                                                 <a href="#" class="text-decoration-none float-end a1">Code</a>
+                                          </div>
+                                   </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                   <div class="card">
+                                          <div class="card-header bg-success">
+                                                 <h2>Airline Reservation System</h2>
+                                          </div>  
+                                          <div class="card-body text-white" style="background-color: rgb(41, 42, 45);;">
+                                                 
+                                                 <p>An airline reservation system is a software application used by airlines
+                                                        which serves as a central database that allows customers to search for flights, reserve seats, purchase tickets, 
+                                                        and manage their travel itineraries. 
+                                                        <br>---Technology:Java and Database
+                                                 </p>
+                                          </div>
+                                          <div class="card-footer bg-dark">
+                                                 <a href="#" class="text-decoration-none float-start a1">Demo</a>
+                                                 <a href="#" class="text-decoration-none float-end a1">Code</a>
+                                          </div>
+                                   </div>
+                            </div>
+                            <div class="col-sm-4">
+                                   <div class="card">
+                                          <div class="card-header bg-info">
+                                                 <h2>Medicare System</h2>
+                                          </div>  
+                                          <div class="card-body text-white" style="background-color: rgb(41, 42, 45);;">
+                                               
+                                                 <p>A medicare system  is software application used by patients for reserve appointments,searching medicine and manage other 
+                                                        health care services.
+                                                        <br>
+                                                        <br>
+                                                        Technology:JAVA
+                                                 </p>
+                                          </div>
+                                          <div class="card-footer bg-dark">
+                                                 <a href="#" class="text-decoration-none float-start a1">Demo</a>
+                                                 <a href="#" class="text-decoration-none float-end a1">Code</a>
+                                          </div>
+                                   </div>
+
+                            </div>
+                     </div>
+                     <div class="row mt-5" data-aos="fade-down" data-aos-duration="1000" >
+                            <div class="col-sm-4">
+                                   <div class="card">
+                                          <div class="card-header bg-danger">
+                                                 <h4>Festival Template</h4>
+                                          </div>  
+                                          <div class="card-body pb-4 text-white"
+                                                 style="background-color: rgb(41, 42, 45);;">
+                                              
+                                                 <p>Festival Template is websiteThis website was designed using HTML and CSS, and it showcases an engaging and visually appealing
+                                                  template for a festival or eventIt includes sections for the festival's history, upcoming events,
+                                                 Calander, and a contact page for inquiries.
+
+                                                   </p>
+                                                 </div>
+                                          <div class="card-footer bg-dark">
+                                                 <a href="#" class="text-decoration-none float-start a1">Demo</a>
+                                                 <a href="#" class="text-decoration-none float-end a1">Code</a>
+                                          </div>
+                                   </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                   <div class="card">
+                                          <div class="card-header bg-primary">
+                                                 <h2>Portfolio</h2>
+                                          </div>  
+                                          <div class="card-body text-white" style="background-color: rgb(41, 42, 45);;">
+                                                
+                                                 <p>Portfolio using HTML and CSS! 🎨🔥 <br>
+                                          This journey has been an incredible learning experience, and I'm excited to showcase my passion for creating visually 
+                                          stunning and user-friendly websites.
+                                          <br>
+                                          Technology: HTML , CSS
+                                          </p>
+                                          </div>
+                                          <div class="card-footer bg-dark">
+                                                 <a href="#" class="text-decoration-none float-start a1">Demo</a>
+                                                 <a href="#" class="text-decoration-none float-end a1">Code</a>
+                                          </div>
+                                   </div>
+                            </div>
+                            <div class="col-sm-4">
+                                   <div class="card">
+                                          <div class="card-header ">
+                                                 <h2>PersonalPortfolio</h2>
+                                          </div>  
+                                          <div class="card-body text-white" style="background-color: rgb(41, 42, 45);;">
+                                                 
+                                                 <p>Portfolio using HTML, CSS! and bootstrap 🎨🔥 <br>
+                                                        This journey has been an incredible learning experience, and I'm excited to showcase my passion for
+                                                         creating visually stunning and user-friendly websites.
+                                                        <br>
+                                                        Technology: HTML , CSS and Boostrap
+                                                        </p>
+                                          </div>
+                                          <div class="card-footer bg-dark">
+                                                 <a href="#" class="text-decoration-none float-start a1">Demo</a>
+                                                 <a href="#" class="text-decoration-none float-end a1">Code</a>
+                                          </div>
+                                   </div>
+
+                            </div>
+                     </div>
+
+
+              </div>
+              <div class="container-fluid Contact text-white">
+                     <div class="row" id="contact">
+                            <div class="col">
+                                   <h1 style="font-weight: 600;" class="cer">Contact Me</h1>
+                            </div>
+                     </div>
+                     <div class="row">
+                            <div class="col-sm-6 " data-aos="fade-up" data-aos-duration="1000">
+                                   <h3 class="mt-5 ms-5">Let's get in touch</h3>
+                                   <nav class="navbar ms-5">
+                                          <div class="container-fluid">
+                                                 <ul class="navbar-nav contactul">
+                                                        <li class="nav-item">
+                                                               <a class="nav-link text-white"
+                                                                      href=" www.linkedin.com/in/sineha-kataria-04019a251">
+                                                                      <span><img src="https://www.codebyuzair.com/static/media/linkedIn.712c4ce3d6be06644d11.png"
+                                                                                    width="30px">&nbsp;LinkedIn
+                                                                      </span>
+                                                               </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                               <a class="nav-link text-white"
+                                                                      href="https://github.com/SinehaKataria1">
+                                                                      <img src="https://www.codebyuzair.com/static/media/github2.0144fe56718f3af01a9f.png"
+                                                                             width="30px">&nbsp;Github</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                               <a class="nav-link text-white"
+                                                                      href="https://www.upwork.com/freelancers/~01551061af133f255a">
+                                                                      <img src="https://www.codebyuzair.com/static/media/upwork.40f0316e436f597ed895.png"
+                                                                             width="30px">&nbsp;Upwork
+                                                               </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                               <a class="nav-link text-white"
+                                                                      href="sinehakataria9@gmail.com">
+                                                                      <img src="https://www.codebyuzair.com/static/media/gmail.ba3d78aae0b730bb06c2.png"
+                                                                             width="30px">&nbsp;Email
+                                                               </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                               <a class="nav-link text-white"
+                                                                      href=">https://www.fiverr.com/sinehakataria?up_rollout=true">
+                                                                      <img src="https://www.codebyuzair.com/static/media/fiver.03e61dd16e52d1fe77e3.png"
+                                                                             width="30px">&nbsp;Fiverr
+                                                               </a>
+                                                        </li>
+                                                 </ul>
+                                          </div>
+                                   </nav>
+
+                            </div>
+                            <div class="col-sm-6" data-aos="fade-down" data-aos-duration="1000">
+                                   <div class="div form">
+                                          <p>I'm available for full time and freelance work.</p>
+                                          <h2>Drop me a message!</h2>
+                                          <form validate>
+                                                 <label for="name" class="my-2">Name</label>
+                                                 <br>
+                                                 <input type="text" class="my-2 form-control"
+                                                        placeholder="What should I call you? 😉" size="60" id="name" required><br>
+                                                 <label for="email" class="my-2 ">Email</label><br>
+                                                 <input type="email" placeholder="Get in touch 📧 Let's connect!"
+                                                        class="my-2 form-control" size="60" id="email" required><br>
+                                                 <label for="Message" class="my-2">Message</label><br>
+                                                 <textarea id="Message" cols="60" rows="5"
+                                                        placeholder="Let's get creative together.🙌"
+                                                        class="my-2 form-control" ></textarea>
+                                                 <br>
+                                                 <input type="submit" class="btn">
+                                          </form>
+                                   </div>
+
+                            </div>
+                     </div>
+                     <footer class="text-center mt-5"> Made with ❤️ by Sineha kataria</footer>
+
+              </div>
        </div>
 
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+       <script>
+              AOS.init();
+       </script>
 </body>
 
 </html>
