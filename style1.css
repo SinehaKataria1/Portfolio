@@ -93,11 +93,13 @@ body{
       padding-bottom: 10px;
       font-size: 20px;
 }
+
 .aboutbtn:hover{
        background-color: #cc00ff;;
        color: white;
        border: 2px solid #cc00ff;
-       box-shadow: 5px 10px 59px #cc00ff;
+       /* box-shadow: 5px 10px 59px #cc00ff; */
+       box-shadow: 0 0 15px 0 #cc00ff;
 }
 .sec{
        margin-top: 150px;
@@ -151,7 +153,9 @@ body{
        margin-right: 10px;
        color: #BC8CF2;
    } 
-   
+   .imge{
+       margin-bottom: 200px;
+   }
    
 
 
@@ -159,7 +163,10 @@ body{
 .topnav li{
        color: #BC8CF2;
        
-       margin-right: 30px;
+       margin-right: 20px;
+}
+.topnav li a:active{
+       color: #111319;
 }
 .topnav li a{
        color: white;
@@ -176,11 +183,11 @@ body{
 
    
 }
-.about{
-       margin-top: 220px;
+#about{
+       /* margin-top: 220px; */
 }
 .aboutdiv{
-       margin-top: 20px;
+       margin-top: 95px;
        color: white;
       
 }
@@ -194,6 +201,16 @@ body{
        margin-top: 65px;
        margin-bottom: 20px;
        
+}
+.cer::after{
+       
+       content: "";
+       display: block;
+       width: 80px;
+       height: 3px;
+       background: #cc00ff;
+       margin-top: 10px;
+      
 }
 
 .aboutdiv button{
@@ -212,8 +229,16 @@ body{
 .aboutdiv button:hover{
        background-color: #cc00ff;;
        color: white;
-       border: 2px solid black;
-       box-shadow: 5px 10px 59px #cc00ff;
+       border: 2px solid #cc00ff;
+       /* box-shadow: 5px 10px 59px #cc00ff; */
+       box-shadow: 0 0 15px 0 #cc00ff;
+}
+.down{
+       color: #cc00ff;
+}
+.aboutdiv button:hover .down{
+       color: white;
+
 }
 .image{
        height: 35rem;
@@ -245,5 +270,100 @@ body{
        background-repeat: no-repeat;
        border-radius: 50%;
 }
-
+.Education{
+   margin-top: 200px;   
+   
+      
+}
+.Projects{
+       margin-top: 200px;  
+}
+.a1{
+       color: white;
+}
+.a1:hover{
+       color: #cc00ff;
+       font-size: large;
+}
+.form{
+       background-color: #111319;
+       max-width: 600px;
+       padding: 30px;
+       box-shadow: 0 0 15px 0 #cc00ff;
+       border-radius: 15px;
+}
+ input[type=text],input[type=email],textarea{
+       background-color: #111319;
+       border: none;
+       border-bottom: 1px solid #a9afc3;
+       border-radius: 5px;
+       color: #fff;
+       font-size: 14px;
+       font-weight: 500;
+       outline: none;
+       padding: 10px;
+       
+}
+input[type=text]:focus,input[type=email]:focus{
+       outline:1px solid #cc00ff;
+       
+}
+textarea:focus{
+       outline:1px solid #cc00ff;
+}
+input[type=submit]{
+       background: transparent;
+       border: 3px solid #fff;
+       border-radius: 7px;
+       color: #fff;
+       cursor: pointer;
+       font-size: 16px;
+       font-weight: 500;
+       outline: none;
+       padding: 10px 30px;
+       margin-left: 180px;
+}
+@media screen and (max-width:900px){
+       input[type=submit]{
+              margin-left: 0;
+       }
+}
+input[type=submit]:hover{
+    background: transparent;
+    background: linear-gradient(-270deg,transparent 0,transparent 50%,#1d1f24 0,#cc00ff);
+    background-position: 100%;
+    background-size: 200% 100%;
+    border: 3px solid #fff;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    padding: 10px 30px;
+   transition-property: background-position;
+   transition-duration: 1.5s;
+   transition-timing-function: ease-in-out;
+   transition-delay: 0s;
+    margin-left: 180px;
+}
+.Contact{
+       margin-top: 150px;
+}
+.contactul li{
+      margin-bottom: 20px;
+}
+.c1{
+       width: 300px; 
+        margin-left: 200px;
+}
+.c2{
+      width: 300px;  
+      margin-left: 100px;
+}
+@media screen and (max-width:1200px) {
+       .c1,.c2{
+              margin-left: 0;
+       }
+}
 
