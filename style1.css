@@ -2,12 +2,14 @@
        margin:0;
        padding: 0;
        box-sizing: border-box;
-       font-family: sans-serif;
+      
 }
+
 body{
        margin: 0;
        padding: 0;
        background-color: black;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       
      
 }
@@ -83,6 +85,13 @@ body{
        margin-left: 90px;
 }
 
+@media screen  and (max-width:1200px) {
+       .second{
+              margin-left: 0;
+       }
+     
+}
+
 .aboutbtn{
        border: 2px solid #cc00ff;
        color: white;
@@ -110,13 +119,25 @@ body{
        margin-top: 100px;
        margin-left: 0;
 }
+.topnav li{
+       margin-left: 15px;
+}
 
-@media screen  and (min-width:1200px) {
-       .topnav{
-              margin-left: 680px;
-       }
+@media screen  and (max-width:1200px) {
+       
        .topnav li{
-              margin-right: 30px;
+              margin-left: 0;
+       }
+       .first2 span{
+              font-size: 20px;
+       }
+       
+      
+}
+ 
+@media screen  and (max-width:550px){
+      .second,#about,#skills, #education,#projects,#contact{
+              margin-top: 400px;
        }
 }
 .sideul{
@@ -259,7 +280,12 @@ body{
       
 
    }
-   .first1 h3::before{
+   @media screen and (max-width:1300px){
+       .img1{
+              margin-left: 0;
+       }
+   }
+   .first2 span::before{
        content: "";
        background-image: url("https://steamuserimages-a.akamaihd.net/ugc/952961606274841534/C4264FC529D88460C03F67BE7853B37236726289/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
        padding-top: 8px;
@@ -292,7 +318,7 @@ body{
        box-shadow: 0 0 15px 0 #cc00ff;
        border-radius: 15px;
 }
- input[type=text],input[type=email],textarea{
+ input[type=text],input[type=email],#Message{
        background-color: #111319;
        border: none;
        border-bottom: 1px solid #a9afc3;
@@ -304,13 +330,18 @@ body{
        padding: 10px;
        
 }
-input[type=text]:focus,input[type=email]:focus{
+input[type=text]:focus ,input[type=email]:focus{
        outline:1px solid #cc00ff;
+
        
 }
-textarea:focus{
+#Message:focus{
        outline:1px solid #cc00ff;
+     
 }
+#Message::placeholder,input[type=text]::placeholder,input[type=email]::placeholder {
+       color: white;
+     }
 input[type=submit]{
        background: transparent;
        border: 3px solid #fff;
@@ -353,17 +384,28 @@ input[type=submit]:hover{
 .contactul li{
       margin-bottom: 20px;
 }
-.c1{
-       width: 300px; 
-        margin-left: 200px;
+.contactul li a:hover{
+       font-size: large;
 }
-.c2{
-      width: 300px;  
-      margin-left: 100px;
-}
-@media screen and (max-width:1200px) {
-       .c1,.c2{
-              margin-left: 0;
-       }
-}
+
+::-webkit-scrollbar {
+       width: 20px;
+     }
+     
+     ::-webkit-scrollbar-track {
+       box-shadow: inset 0 0 5px grey; 
+       border-radius: 10px;
+     }
+      
+    
+     ::-webkit-scrollbar-thumb {
+       background: #6e0e86; 
+       border-radius: 10px;
+     }
+     
+   
+     ::-webkit-scrollbar-thumb:hover {
+       background: #6e0e86; 
+     }
+     
 
